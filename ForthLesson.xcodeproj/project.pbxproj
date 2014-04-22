@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8B6445C1906B37D00E866AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B6445B1906B37D00E866AA /* Foundation.framework */; };
+		B8B6445E1906B37D00E866AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B6445D1906B37D00E866AA /* CoreGraphics.framework */; };
+		B8B644601906B37D00E866AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B6445F1906B37D00E866AA /* UIKit.framework */; };
+		B8B644661906B37D00E866AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8B644641906B37D00E866AA /* InfoPlist.strings */; };
+		B8B644681906B37D00E866AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B644671906B37D00E866AA /* main.m */; };
+		B8B6446C1906B37D00E866AA /* UIKTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B6446B1906B37D00E866AA /* UIKTAppDelegate.m */; };
+		B8B6446E1906B37D00E866AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8B6446D1906B37D00E866AA /* Images.xcassets */; };
+		B8B644751906B37D00E866AA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B644741906B37D00E866AA /* XCTest.framework */; };
+		B8B644761906B37D00E866AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B6445B1906B37D00E866AA /* Foundation.framework */; };
+		B8B644771906B37D00E866AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B6445F1906B37D00E866AA /* UIKit.framework */; };
+		B8B6447F1906B37D00E866AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8B6447D1906B37D00E866AA /* InfoPlist.strings */; };
+		B8B644811906B37D00E866AA /* ForthLessonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B644801906B37D00E866AA /* ForthLessonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8B644781906B37D00E866AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8B644501906B37D00E866AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8B644571906B37D00E866AA;
+			remoteInfo = ForthLesson;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8B644581906B37D00E866AA /* ForthLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForthLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B6445B1906B37D00E866AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B8B6445D1906B37D00E866AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B8B6445F1906B37D00E866AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B8B644631906B37D00E866AA /* ForthLesson-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ForthLesson-Info.plist"; sourceTree = "<group>"; };
+		B8B644651906B37D00E866AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B8B644671906B37D00E866AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8B644691906B37D00E866AA /* ForthLesson-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ForthLesson-Prefix.pch"; sourceTree = "<group>"; };
+		B8B6446A1906B37D00E866AA /* UIKTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKTAppDelegate.h; sourceTree = "<group>"; };
+		B8B6446B1906B37D00E866AA /* UIKTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIKTAppDelegate.m; sourceTree = "<group>"; };
+		B8B6446D1906B37D00E866AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B8B644731906B37D00E866AA /* ForthLessonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForthLessonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B644741906B37D00E866AA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B8B6447C1906B37D00E866AA /* ForthLessonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ForthLessonTests-Info.plist"; sourceTree = "<group>"; };
+		B8B6447E1906B37D00E866AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B8B644801906B37D00E866AA /* ForthLessonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForthLessonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8B644551906B37D00E866AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B6445E1906B37D00E866AA /* CoreGraphics.framework in Frameworks */,
+				B8B644601906B37D00E866AA /* UIKit.framework in Frameworks */,
+				B8B6445C1906B37D00E866AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B644701906B37D00E866AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B644751906B37D00E866AA /* XCTest.framework in Frameworks */,
+				B8B644771906B37D00E866AA /* UIKit.framework in Frameworks */,
+				B8B644761906B37D00E866AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8B6444F1906B37D00E866AA = {
+			isa = PBXGroup;
+			children = (
+				B8B644611906B37D00E866AA /* ForthLesson */,
+				B8B6447A1906B37D00E866AA /* ForthLessonTests */,
+				B8B6445A1906B37D00E866AA /* Frameworks */,
+				B8B644591906B37D00E866AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8B644591906B37D00E866AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8B644581906B37D00E866AA /* ForthLesson.app */,
+				B8B644731906B37D00E866AA /* ForthLessonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8B6445A1906B37D00E866AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8B6445B1906B37D00E866AA /* Foundation.framework */,
+				B8B6445D1906B37D00E866AA /* CoreGraphics.framework */,
+				B8B6445F1906B37D00E866AA /* UIKit.framework */,
+				B8B644741906B37D00E866AA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8B644611906B37D00E866AA /* ForthLesson */ = {
+			isa = PBXGroup;
+			children = (
+				B8B6446A1906B37D00E866AA /* UIKTAppDelegate.h */,
+				B8B6446B1906B37D00E866AA /* UIKTAppDelegate.m */,
+				B8B6446D1906B37D00E866AA /* Images.xcassets */,
+				B8B644621906B37D00E866AA /* Supporting Files */,
+			);
+			path = ForthLesson;
+			sourceTree = "<group>";
+		};
+		B8B644621906B37D00E866AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8B644631906B37D00E866AA /* ForthLesson-Info.plist */,
+				B8B644641906B37D00E866AA /* InfoPlist.strings */,
+				B8B644671906B37D00E866AA /* main.m */,
+				B8B644691906B37D00E866AA /* ForthLesson-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8B6447A1906B37D00E866AA /* ForthLessonTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8B644801906B37D00E866AA /* ForthLessonTests.m */,
+				B8B6447B1906B37D00E866AA /* Supporting Files */,
+			);
+			path = ForthLessonTests;
+			sourceTree = "<group>";
+		};
+		B8B6447B1906B37D00E866AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8B6447C1906B37D00E866AA /* ForthLessonTests-Info.plist */,
+				B8B6447D1906B37D00E866AA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8B644571906B37D00E866AA /* ForthLesson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8B644841906B37D00E866AA /* Build configuration list for PBXNativeTarget "ForthLesson" */;
+			buildPhases = (
+				B8B644541906B37D00E866AA /* Sources */,
+				B8B644551906B37D00E866AA /* Frameworks */,
+				B8B644561906B37D00E866AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForthLesson;
+			productName = ForthLesson;
+			productReference = B8B644581906B37D00E866AA /* ForthLesson.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8B644721906B37D00E866AA /* ForthLessonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8B644871906B37D00E866AA /* Build configuration list for PBXNativeTarget "ForthLessonTests" */;
+			buildPhases = (
+				B8B6446F1906B37D00E866AA /* Sources */,
+				B8B644701906B37D00E866AA /* Frameworks */,
+				B8B644711906B37D00E866AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8B644791906B37D00E866AA /* PBXTargetDependency */,
+			);
+			name = ForthLessonTests;
+			productName = ForthLessonTests;
+			productReference = B8B644731906B37D00E866AA /* ForthLessonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8B644501906B37D00E866AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UIKT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Anastasia;
+				TargetAttributes = {
+					B8B644721906B37D00E866AA = {
+						TestTargetID = B8B644571906B37D00E866AA;
+					};
+				};
+			};
+			buildConfigurationList = B8B644531906B37D00E866AA /* Build configuration list for PBXProject "ForthLesson" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B8B6444F1906B37D00E866AA;
+			productRefGroup = B8B644591906B37D00E866AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8B644571906B37D00E866AA /* ForthLesson */,
+				B8B644721906B37D00E866AA /* ForthLessonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8B644561906B37D00E866AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B644661906B37D00E866AA /* InfoPlist.strings in Resources */,
+				B8B6446E1906B37D00E866AA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B644711906B37D00E866AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B6447F1906B37D00E866AA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8B644541906B37D00E866AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B644681906B37D00E866AA /* main.m in Sources */,
+				B8B6446C1906B37D00E866AA /* UIKTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B6446F1906B37D00E866AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B644811906B37D00E866AA /* ForthLessonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8B644791906B37D00E866AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8B644571906B37D00E866AA /* ForthLesson */;
+			targetProxy = B8B644781906B37D00E866AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8B644641906B37D00E866AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8B644651906B37D00E866AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B8B6447D1906B37D00E866AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8B6447E1906B37D00E866AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8B644821906B37D00E866AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B8B644831906B37D00E866AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8B644851906B37D00E866AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ForthLesson/ForthLesson-Prefix.pch";
+				INFOPLIST_FILE = "ForthLesson/ForthLesson-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B8B644861906B37D00E866AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ForthLesson/ForthLesson-Prefix.pch";
+				INFOPLIST_FILE = "ForthLesson/ForthLesson-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B8B644881906B37D00E866AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ForthLesson.app/ForthLesson";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ForthLesson/ForthLesson-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ForthLessonTests/ForthLessonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B8B644891906B37D00E866AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ForthLesson.app/ForthLesson";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ForthLesson/ForthLesson-Prefix.pch";
+				INFOPLIST_FILE = "ForthLessonTests/ForthLessonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8B644531906B37D00E866AA /* Build configuration list for PBXProject "ForthLesson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B644821906B37D00E866AA /* Debug */,
+				B8B644831906B37D00E866AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8B644841906B37D00E866AA /* Build configuration list for PBXNativeTarget "ForthLesson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B644851906B37D00E866AA /* Debug */,
+				B8B644861906B37D00E866AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B8B644871906B37D00E866AA /* Build configuration list for PBXNativeTarget "ForthLessonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B644881906B37D00E866AA /* Debug */,
+				B8B644891906B37D00E866AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8B644501906B37D00E866AA /* Project object */;
+}
