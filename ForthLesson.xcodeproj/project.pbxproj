@@ -19,6 +19,8 @@
 		B8B644771906B37D00E866AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B6445F1906B37D00E866AA /* UIKit.framework */; };
 		B8B6447F1906B37D00E866AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8B6447D1906B37D00E866AA /* InfoPlist.strings */; };
 		B8B644811906B37D00E866AA /* ForthLessonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B644801906B37D00E866AA /* ForthLessonTests.m */; };
+		B8B6448D1906B39600E866AA /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B6448B1906B39600E866AA /* TestViewController.m */; };
+		B8B6448E1906B39600E866AA /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8B6448C1906B39600E866AA /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		B8B6447C1906B37D00E866AA /* ForthLessonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ForthLessonTests-Info.plist"; sourceTree = "<group>"; };
 		B8B6447E1906B37D00E866AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B8B644801906B37D00E866AA /* ForthLessonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForthLessonTests.m; sourceTree = "<group>"; };
+		B8B6448A1906B39600E866AA /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		B8B6448B1906B39600E866AA /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		B8B6448C1906B39600E866AA /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,10 @@
 		B8B6444F1906B37D00E866AA = {
 			isa = PBXGroup;
 			children = (
+				B8B6448F1906B52E00E866AA /* Controllers */,
+				B8B6448A1906B39600E866AA /* TestViewController.h */,
+				B8B6448B1906B39600E866AA /* TestViewController.m */,
+				B8B6448C1906B39600E866AA /* TestViewController.xib */,
 				B8B644611906B37D00E866AA /* ForthLesson */,
 				B8B6447A1906B37D00E866AA /* ForthLessonTests */,
 				B8B6445A1906B37D00E866AA /* Frameworks */,
@@ -142,6 +151,13 @@
 				B8B6447D1906B37D00E866AA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8B6448F1906B52E00E866AA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8B644661906B37D00E866AA /* InfoPlist.strings in Resources */,
+				B8B6448E1906B39600E866AA /* TestViewController.xib in Resources */,
 				B8B6446E1906B37D00E866AA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8B6448D1906B39600E866AA /* TestViewController.m in Sources */,
 				B8B644681906B37D00E866AA /* main.m in Sources */,
 				B8B6446C1906B37D00E866AA /* UIKTAppDelegate.m in Sources */,
 			);
